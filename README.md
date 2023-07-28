@@ -1,7 +1,6 @@
 # Playwright Starter Template
 
-![CI Status](https://img.shields.io/github/workflow/status/Karthikmani345/playwright-starter-template/CI)
-![License](https://img.shields.io/github/license/Karthikmani345/playwright-starter-template)
+
 
 Welcome to the Playwright Starter Template repository! This project is a quick-start guide for anyone looking to write end-to-end tests using Playwright, an excellent open-source testing library capable of running tests in all modern web browsers.
 
