@@ -1,0 +1,39 @@
+{
+  "name": "playwright-starter-template",
+  "version": "1.0.0",
+  "description": "Welcome to the Playwright Starter Template repository! This template equips you to write end-to-end tests with Playwright, a versatile open-source testing library for modern web browsers. It incorporates Allure, an open-source framework for generating clear and comprehensive test reports, boosting your TDD approach.",
+  "main": "index.js",
+  "scripts": {
+    "report:allure": "allure generate ./allure-results --clean && allure open ./allure-report",
+    "clean": "rm -rf allure-results playwright-report test-results allure-report",
+    "start": "npx playwright test --trace on && npx playwright show-report",
+    "codegen": "npx playwright codegen",
+    "test": "npx playwright test",
+    "test:ui": "npx playwright test --ui"
+  },
+  "keywords": [
+    "playwright",
+    "allure",
+    "testing",
+    "automation",
+    "e2e-testing",
+    "test-reports",
+    "test-automation",
+    "browser-testing",
+    "starter-template",
+    "tdd"
+  ],
+  "author": {
+    "name": "Kartik Manimuthu",
+    "email": "karthikmani345@gmail.com"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.34.3",
+    "allure-commandline": "^2.21.0",
+    "allure-playwright": "^2.0.0"
+  },
+  "dependencies": {
+    "playwright": "^1.34.3"
+  }
+}
